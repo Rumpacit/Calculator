@@ -8,7 +8,7 @@ for(let btn of buttons){
     screen.value="";
 }
 else if(btnText==='X'){
-    screen.value='*';
+    screen.value+='*';
 }
 else if (btnText==='='){
 try{
